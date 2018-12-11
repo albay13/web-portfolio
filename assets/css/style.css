@@ -1,0 +1,161 @@
+body{
+	margin: 0;
+}
+body,html{
+	font-family: "Uroob";
+}
+table,tr,td{
+			border:1px solid black;
+				border-collapse: collapse;
+				padding: 5px;
+				width: 50%;
+}
+.text-white{
+	color: white;
+}
+.text-black{
+	color: black;
+}
+hr.short-white{
+	border: 3px solid white;
+	width: 200px;
+}
+hr.short-black{
+	border: 3px solid black;
+	width: 200px;
+}
+li .active{
+	font-size: 30px;
+	margin-left: 150px
+}
+li .right{
+	margin-right: 150px
+}
+.text-desc{
+	display: inline-block;
+}
+.exp{
+	display: inline-block; list-style-type: none;
+}
+.profile-pic{
+	border-radius: 50%
+}
+h1{
+	font-size: 40px;
+}
+h2{
+	font-size: 29px;
+}
+h3{
+	font-size: 25px;
+}
+.card{
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
+	background-color: #52e3b8; 
+	display: inline-block;
+	padding: 5px; border-radius: 5px; width: 20%; 
+}
+.card-middle{
+	margin-left: 150px; margin-right: 150px;
+}
+.card-img{
+	border-radius: 100%;box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#ul-skills{
+	  text-align: center;
+  	  list-style: inside;
+}
+#ul-skills{
+	display: inline-block;
+}
+.green-container{
+	background-color: #20c997;
+	padding: 50px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.customized-container{
+	background-color: #20c997;
+	padding: 50px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+ul.topnav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #000019;
+}
+
+ul.topnav li {float: left;}
+
+ul.topnav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 20px 22px;
+  text-decoration: none;
+}
+
+ul.topnav li a:hover:not(.active) {background-color: #111;}
+
+ul.topnav li.right {float: right; padding-top:10px !important;}
+
+@media screen and (max-width: 600px) {
+  ul.topnav li.right, 
+  ul.topnav li {float: none;}
+}
+.par { 
+  /* The image used */
+		  background-image: url("../images/levelup.jpg");
+		  opacity: 0.80;
+		  /* Set a specific height */
+		  height: 500px; 
+
+		  /* Create the parallax scrolling effect */
+		  background-attachment: fixed;
+		  background-position: center;
+		  background-repeat: no-repeat;
+		  
+}
+.par-2 { 
+  /* The image used */
+		  background-image: url("../images/z.jpg");
+		  opacity: 0.80;
+		  /* Set a specific height */
+		  height: 500px; 
+
+		  /* Create the parallax scrolling effect */
+		  background-attachment: fixed;
+		  background-position: center;
+		  background-repeat: no-repeat;
+		  
+}
+.par-heading{
+	font-size: 60px;
+	padding: 150px;
+}
+.par-text{
+	font-size: 50px;
+}
+ul .bullet {
+  columns: 2;
+  -webkit-columns: 2;
+  -moz-columns: 2;
+}
+.checked {
+  color: orange;
+}
+.footer {
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   height: 50px;
+   padding-top: 5px;
+   background-color: #212529;
+   color: white;
+   text-align: center;
+   margin-top: -13.5px;
+   margin-bottom: -100px;
+}
+
+
