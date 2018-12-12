@@ -73,6 +73,8 @@ h3{
 .ul-skills{
 	  text-align: center;
   	  list-style: inside;
+  	  margin-left: 100px;
+  	  margin-right:175px;
 }
 .ul-skills{
 	display: inline-block;
@@ -115,7 +117,7 @@ ul.topnav li.right {float: right; padding-top:10px !important;}
 }
 .par { 
   /* The image used */
-		  background-image: url("../images/levelup.jpg");
+		  background-image: url("../images/web.jpg");
 		  opacity: 0.80;
 		  /* Set a specific height */
 		  height: 500px; 
@@ -126,9 +128,19 @@ ul.topnav li.right {float: right; padding-top:10px !important;}
 		  background-repeat: no-repeat;
 		  
 }
+.parallax{
+	  background-image: url("../images/header.jpg");
+		  /* Set a specific height */
+		  height: 500px; 
+
+		  /* Create the parallax scrolling effect */
+		  background-attachment: fixed;
+		  background-repeat: no-repeat;
+		  padding-top: 25px;
+}
 .par-2 { 
   /* The image used */
-		  background-image: url("../images/z.jpg");
+		  background-image: url("../images/web2.jpg");
 		  opacity: 0.80;
 		  /* Set a specific height */
 		  height: 500px; 
@@ -171,5 +183,28 @@ ul .bullet {
 	height: 50px; 
 	padding-top: 10px;
 }
+.container {
+  width: 100%;
+  background-color: #ddd;
+  height: 10px;
+}
+
+.skills {
+  text-align: right;
+  height: 10px;
+  color: white;
+}
+
+.programming {width: 90%; background-color: #3F729B;}
+.framework {width: 85%; background-color: #2196F3;}
+.ms-office {width: 90%; background-color: #2e7d32;}
+.ipcon {width: 70%; background-color: #69f0ae;}
+.server-add {width: 80%; background-color: #40c4ff;}
+.replacement {width: 100%; background-color: #ef6c00;}
+.cb-mng {width: 80%; background-color: #ffab40;}
+.trouble {width: 80%; background-color: rgba(76, 175, 80, 0.7);
+}
+
+
 
 
